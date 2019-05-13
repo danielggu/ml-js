@@ -1,0 +1,18 @@
+{
+  "name": "ml-js",
+  "version": "0.1.0",
+  "description": "Commonly used ML algorithms built in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "ml",
+    "machine",
+    "learning",
+    "javascript",
+    "algorithms"
+  ],
+  "author": "dgguz",
+  "license": "MIT"
+}
