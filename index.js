@@ -1,5 +1,5 @@
 const mathUtils = require('./lib/math-utils');
-const KMeansClassifier = require('./lib/k-means');
+const KMeansClassifier = require('./lib/k-means/k-means.runner');
 
 const getInputData = dimension => {
 	const samples = [];
@@ -16,5 +16,5 @@ const getInputData = dimension => {
 
 (async () => {
 	const inputData = await getInputData(2);
-	const test = await KMeansClassifier.run(inputData, 2);
+	await KMeansClassifier.run(inputData, 2);
 })();
